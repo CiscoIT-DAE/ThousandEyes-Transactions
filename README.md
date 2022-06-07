@@ -22,14 +22,15 @@ You must identify the following details:
 * Secret key
 * API hostname
 * A user to execute the preauth request for.
+* A bypass code (auth transaction ONLY)
 
 ### Configuring the transaction
-* Within ThousandEyes, register the secret key and integration key as separate secrets in the `Credential Repository`.
+* Within ThousandEyes, register the secret key, integration key, and bypass code (if using the auth) as separate secrets in the `Credential Repository`.
 * Create a new Web Transaction test.
 * Use the [ping API](https://duo.com/docs/authapi#/ping) endpoint for your API hostname as the URL.
 * Paste the code snippet from this repo in the `Transaction Script` field.
-* Update the code with your API hostname, the username, the name of the integration key credential, and the name of the secret key credential.
-* Using the key icon above the transaction script window, grant this test access to both of the relevant credentials.
+* Update the code with your API hostname, username, the name of the integration key, secret key, and bypass code (if auth) credentials.
+* Using the key icon above the transaction script window, grant this test access to the relevant credentials.
 * Set the remaining test attributes, then `Save` or verify with `Run Once`
 
 ### Resources
