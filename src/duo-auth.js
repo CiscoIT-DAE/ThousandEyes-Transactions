@@ -43,8 +43,8 @@ async function executeTransation() {
     // hash they generate.
     const payload2Hash = [dateString, method, host, path, body].join("\n");
     const hash = createHmac('sha1', secretKey)
-                 .update(payload2Hash)
-                 .digest('hex');
+        .update(payload2Hash)
+        .digest('hex');
 
     const request = {
         method,
@@ -73,7 +73,7 @@ async function executeTransation() {
  * Generate a Datetime string meeting RFC2822 format requirements
  * @return {String} - Datetime string
  */
- function getRFC2822Date() {
+function getRFC2822Date() {
     return new Date().toUTCString().replace(/GMT/g, '+0000');
 }
 

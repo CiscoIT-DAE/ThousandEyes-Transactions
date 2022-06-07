@@ -34,8 +34,8 @@ async function executeTransation() {
     // hash they generate.
     const payload2Hash = [dateString, method, host, path, body].join("\n");
     const hash = createHmac('sha1', secretKey)
-                 .update(payload2Hash)
-                 .digest('hex');
+        .update(payload2Hash)
+        .digest('hex');
 
     const request = {
         method,
