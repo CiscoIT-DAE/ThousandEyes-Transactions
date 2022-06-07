@@ -1,0 +1,17 @@
+{
+  "name": "ThousandEyes-Transactions",
+  "version": "1.0.0",
+  "description": "A collection of script examples to be used with ThousandEyes Web Transaction tests",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CiscoIT-DAE/ThousandEyes-Transactions.git"
+  },
+  "author": "Cisco Systems",
+  "license": "Cisco Sample Code License",
+  "homepage": "https://github.com/CiscoIT-DAE/ThousandEyes-Transactions#readme",
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-plugin-wdio": "^7.19.4",
+    "prettier": "^2.6.2"
+  }
+}
