@@ -1,5 +1,5 @@
 {
-  "name": "ThousandEyes-Transactions",
+  "name": "thousandeyes-transactions",
   "version": "1.0.0",
   "description": "A collection of script examples to be used with ThousandEyes Web Transaction tests",
   "repository": {
