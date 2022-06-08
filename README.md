@@ -18,7 +18,7 @@ subsystems than the preauth transaction, but it requires the use of a bypass cod
 
 ### Prequisites
 In order to setup this transaction you should follow the "First Steps" section of the
-[Duo auth API documentation](https://duo.com/docs/authapi#first-steps). You must identify the
+[Duo Auth API documentation](https://duo.com/docs/authapi#first-steps). You must identify the
 following details:
 * Integration key
 * Secret key
@@ -29,7 +29,7 @@ following details:
 ### Configuring the transaction
 * Within ThousandEyes, register the secret key, integration key, and bypass code (if using the auth) as separate secrets in the `Credential Repository`.
 * Create a new Web Transaction test.
-* Use the [ping API](https://duo.com/docs/authapi#/ping) endpoint for your API hostname as the URL.
+* Use the [Duo Auth API /ping endpoint](https://duo.com/docs/authapi#/ping) endpoint for your API hostname as the URL.
 * Paste the code snippet from this repo in the `Transaction Script` field.
 * Update the code with your API hostname, username, the name of the integration key, secret key, and bypass code (if auth) credentials.
 * Using the key icon above the transaction script window, grant this test access to the relevant credentials.
