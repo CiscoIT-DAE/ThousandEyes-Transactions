@@ -13,7 +13,7 @@ module.exports = {
     },
     'rules': {
         'indent': ['error', 4, {'SwitchCase': 1}],
-        'max-len': ['warn', 80],
+        'max-len': ['warn', 100],
     },
     'plugins': ['wdio'],
 };
