@@ -136,7 +136,7 @@ function validateRequest(response, responseText, {statusCode, content}) {
             assert((status >= 200 && status < 400),
                 "HTTP Status Code NOT OK.");
 
-        } else if (statusCode) {
+        } else {
             const ports = statusCode.split(',');
             assert(ports.some((port) => {
                 const parts = port.split("-");
