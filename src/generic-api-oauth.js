@@ -15,7 +15,7 @@ import fetch from 'node-fetch';
  * @param {String|RegExp} validation.content - A string or RegExp that must match the content of the reponse
  */
 const configuration = {
-    'url':' https://myapp.domain.tld',
+    'url': 'https://myapp.domain.tld',
     'method': 'POST',
     'headers': { 'Content-Type': 'application/json' },
     'body': JSON.stringify({
