@@ -65,8 +65,8 @@ health API that functions without authentication and a GET http method.
 * Create a new Web Transaction test.
 * Configure the basic parameters of the test: interval, agents, url.
 * Paste the code snippet from this repo in the `Transaction Script` field.
-* Update the code with the configuration details you previously identified.
-* If no validation is required, remove this key from the configuration object
+* Update the configuration and auth objects with the configuration details you previously identified.
+    * If no validation is required, remove this key from the configuration object
 * Using the key icon above the transaction script window, grant this test access to the relevant credentials.
 * Set the remaining test attributes, then `Save` or verify with `Run Once`
 
