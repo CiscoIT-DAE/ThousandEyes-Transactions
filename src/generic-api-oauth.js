@@ -2,7 +2,6 @@ import { markers, credentials} from 'thousandeyes';
 import assert from 'assert';
 import fetch from 'node-fetch';
 
-
 /**
  * The configuration object defines the transaction to execute and how to validate the response
  * 
