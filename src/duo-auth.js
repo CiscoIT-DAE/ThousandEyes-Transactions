@@ -24,7 +24,7 @@ async function executeTransation() {
     // creates a way to bypass the 2 factor authentication in Duo, as it  
     // is difficult to implement in an automated transaction.  The existance of
     // a bypass code creates a certain risk for the user account in question, 
-    // and you should understand and accept these risk before generating the
+    // and you should understand and accept this risk before generating the
     // bypass code. Duo documentation for bypass codes can be found here: 
     // https://duo.com/docs/administration-users#generating-a-bypass-code
     const passcode = credentials.get('bypassCode');
